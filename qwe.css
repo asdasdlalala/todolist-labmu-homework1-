@@ -1,0 +1,39 @@
+body
+{
+	background-color:#E0EEEE;
+}
+.headline_class
+{
+	font-size:40px;
+	margin-left:450px;
+	margin-top:20px;
+	margin-bottom:50px;
+	float:left;
+}
+.input_class
+{
+	margin-top:27px;
+	margin-left:10px;
+	height:25px;
+	border-radius:6px;
+	box-shadow:0 1px 6px #4F4F4F inset;
+	float:left;
+}
+li
+{
+	margin-left:300px;
+	font-size:20px;
+	margin-right:350px;
+}
+li a
+{
+	float:right;
+	margin-right:30px;
+}
+.button_class
+{
+	margin:30px;
+	font-size:25px;
+	position:absolute;
+	left:45%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Own ToDoList</title>
+	<meta name="author" content="dxy1998">
+	<meta name="keywords" content="html css javascript">
+	<meta name="description" content="homework for Labmu">
+	<base target="_blank">
+	<link rel="stylesheet" href="qwe.css">
+	<script type="text/javascript" src="qwe.js"></script>
+</head>
+
+<body>
+	<div>
+		<h1 class="headline_class">ToDoList</h1>
+		<form action="javascript:window.add1()" id="form">
+			<input class="input_class" type="text" id="input" placeholder=" add an item">
+		</form>
+		<div style="clear:both"></div>
+	</div>
+	<h2 style="margin-left:200px">There are <span id="todocnt"></span> items to do:</h2>
+	<ul class="todolist_class" id="todolist"></ul>
+	<h2 style="margin-left:200px">There are <span id="donecnt"></span> items finished:</h2>
+	<ul class="donelist_class" id="donelist"></ul>
+	<button class="button_class" type="button" onclick="javascript:window.clear()">Clear</button>
+</body>
+
+</html>
